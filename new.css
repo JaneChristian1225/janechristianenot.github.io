@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Lustria&family=Poppins:wght@300;700&family=Questrial&family=Satisfy&display=swap');
+/* font-family: 'Poppins', sans-serif;
+    font-family: 'Questrial', sans-serif;
+    font-family: 'Satisfy', cursive; */
+
+    *{
+    overflow-x: hidden;
+    font-family: 'Poppins', sans-serif;
+    }
+    .first{
+        height: 749px;
+        background-color: #000;
+    }
+    .first img{
+        height: 749px;
+    }
+    .logo{
+       position: absolute;
+       top: -5px;
+       left: 78px;
+    }
+    .options{
+        margin-right: 50px;
+    }
+    .options ul li{
+        float: right;
+        padding: 5px 10px;
+        margin: 30px 20px;
+        color: #eee;
+    }
+    .btn.active, .btn:hover {
+        background-color: #DC5F00;
+        color: #eee;
+    }
+    .text{
+        margin: 100px 90px 0px 30px;
+        color: #eeee;
+        
+    }
+    .text span{
+        color: #DC5F00;
+    }
+    .greet, .job{
+        font-size: 20px;
+        
+    }
+    .name{
+        font-size: 50px;
+        font-weight: bold;
+    }
+    .job{
+        margin-top: -20px;
+        margin-bottom: 35px;
+    }
+    .header{
+        font-size: 50px;
+        font-weight: bold;
+    }
+    button{
+        border: none;
+        background-color: #DC5F00;
+        color: #eee;
+        padding: 10px 25px;
+    }
+    button:hover{
+        padding: 6px 20px;
+        transition: 0.1s ease-in-out;
+    }
+    .contact{
+        margin-right: 60px;
+        position: absolute;
+        top: 580px;
+        right: 20px;
+    }
+    .contact ul li{
+        cursor: pointer;
+        float: right;
+        margin: 80px 30px 0px 10px;
+        padding: 5px 9px 0px 9px;
+        border-radius: 50%;
+        color: #eee;
+        background-color: #DC5F00;
+        font-size: 20px;
+    }
+    .contact ul li a{
+        color: #eee;
+    }
+    .contact ul li:hover{
+        font-size: 25px;
+    }
+    #about{
+        display: none;
+    }
+    #skill{
+        margin-top: -50px;
+        display: none;
+        
+    }
+    #soft{
+        opacity: 0.5;
+    }
+    #softskill{
+        display: none;
+    }
+    #skill ul{
+        margin-left: -10px;
+        cursor: pointer;
+    }
+    #skill .header{
+        font-size: 50px;
+        color: white;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 700;
+    }
+    #skill ul li{
+        display:inline-block;
+    }
+    #skill span{
+        color: #DC5F00;
+    }
+    #skill .partition{
+        margin-right: 15px;
+        margin-left: 15px;
+        margin-bottom: 30px;
+        background-color: white;
+        height: 50px;
+        width: 10px;
+    }
+    #skill .barProgress{
+        margin: 10px 90px 0px 40px;
+        color: #eee;
+    }
+    
+    .progress .progress-bar{
+        background-color: #DC5F00;
+    }
+    .barProgress .progress {
+        height: 23px;
+    }
+    #project{
+        display: none;
+        margin-top: -110px;
+        color: #eee;
+    }
+    #project .header{
+        color:#eee ;
+    }
+    #project span{
+        color: #DC5F00;
+    }
+    #project p{
+        margin-top: -10px;
+    }
+    .carousel{
+        height: 420px;
+        margin-right: 90px;
+    }
+    .carousel-inner{
+        height: 420px;
+    }
+    .carousel-item img{
+        height: 100%;
+    }
+    .carousel-caption{
+        background-color: #000;
+        color: #eee;
+    }
