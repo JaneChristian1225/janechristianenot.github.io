@@ -165,3 +165,24 @@
         background-color: #000;
         color: #eee;
     }
+    #education{
+        display: none;
+        margin-top: -110px;
+        color: #eee;
+    }
+    .year{
+        font-style: italic;
+    }
+    .course{
+        margin-top: -20px;
+        font-weight: 900;
+        font-size: 18px;
+        color: #DC5F00;
+    }
+    .univ{
+        margin-top: -20px;
+    }
+    .rev{
+        font-size: 18px;
+        font-weight: 900;
+    }

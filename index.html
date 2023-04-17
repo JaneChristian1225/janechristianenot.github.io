@@ -19,10 +19,11 @@
             <div class="col">
                 <div class="options">
                     <ul id="myDIV">
-                      <li id="fourth" class="btn">Projects</li>
-                      <li id="third" class="btn">Skills</li>
-                      <li id="second" class="btn">About</li>
-                      <li id="first" class="btn active">Home</li>
+                        <li id="fifth" class="btn">Education</li>
+                        <li id="fourth" class="btn">Projects</li>
+                        <li id="third" class="btn">Skills</li>
+                        <li id="second" class="btn">About</li>
+                        <li id="first" class="btn active">Home</li>
                     </ul>
                 </div>
                 <div class="text">
@@ -172,6 +173,31 @@
                           <span class="sr-only">Next</span>
                         </a>
                       </div>
+                </div>
+                <div id="education" style="height: 500px;">
+                    <p class="header"><span>Education</span></p>
+                    <div class="bk1 mb-5">
+                        <p class="year">2019-2023</p>
+                        <p class="course">Bachelor of Science (B.S) in Information Technology</p>
+                        <p class="univ">University of Science and Technology of Southern Philippines, Cagayan de Oro City, Misamis Oriental</p>
+                        <p class="rev">Relevant Courses</p>
+                        <ul>
+                            <li>Computer Programming</li>
+                            <li>Information Management</li>
+                            <li>Software Engineering</li>
+                            <li>Web Systems and Technologies</li>
+                            <li>Applications Development and Emerging Technnologies</li>
+                        </ul>
+                        
+                    </div>
+                    <div class="bk1">
+                        <p class="year">2017-2019</p>
+                        <p class="course">General Academic Strand major in Information Technology</p>
+                        <p class="univ">Phinma Cagayan de Oro College, Cagayan de Oro City, Misamis Oriental</p>
+          
+                        
+                    </div>
+                
                 </div>              
             </div>
         </div>
@@ -194,24 +220,35 @@
             document.getElementById("about").style.display = "none";
             document.getElementById("skill").style.display = "none";
             document.getElementById("project").style.display = "none";
+            document.getElementById("education").style.display = "none";
         });
         $("#second").on('click', function() {
             document.getElementById("home").style.display = "none";
             document.getElementById("about").style.display = "block";
             document.getElementById("skill").style.display = "none";
             document.getElementById("project").style.display = "none";
+            document.getElementById("education").style.display = "none";
         });
         $("#third").on('click', function() {
             document.getElementById("home").style.display = "none";
             document.getElementById("about").style.display = "none";
             document.getElementById("skill").style.display = "block";
             document.getElementById("project").style.display = "none";
+            document.getElementById("education").style.display = "none";
         });
         $("#fourth").on('click', function() {
             document.getElementById("home").style.display = "none";
             document.getElementById("about").style.display = "none";
             document.getElementById("skill").style.display = "none";
             document.getElementById("project").style.display = "block";
+            document.getElementById("education").style.display = "none";
+        });
+        $("#fifth").on('click', function() {
+            document.getElementById("home").style.display = "none";
+            document.getElementById("about").style.display = "none";
+            document.getElementById("skill").style.display = "none";
+            document.getElementById("project").style.display = "none";
+            document.getElementById("education").style.display = "block";
         });
 
         $("#technical").on('click', function() {
